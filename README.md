@@ -11,7 +11,9 @@ import nltk
 from nltk.chat.util import Chat, reflections
 
 Chat – Chat is a class that contains complete logic for processing the text data that the chatbot receives and finding useful information out of it.
+
 reflections – Another import we have done is reflections which is a dictionary containing basic input and corresponding outputs. You can also create your own dictionary with more responses you want. if you print reflections it will be something like this.
+
 reflections = {
   "i am"       : "you are",
   "i was"      : "you were",
