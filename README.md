@@ -15,22 +15,39 @@ Chat – Chat is a class that contains complete logic for processing the text da
 reflections – Another import we have done is reflections which is a dictionary containing basic input and corresponding outputs. You can also create your own dictionary with more responses you want. if you print reflections it will be something like this.
 
 reflections = {
+
   "i am"       : "you are",
+  
   "i was"      : "you were",
+  
   "i"          : "you",
+  
   "i'm"        : "you are",
+  
   "i'd"        : "you would",
+  
   "i've"       : "you have",
+  
   "i'll"       : "you will",
+  
   "my"         : "your",
+  
   "you are"    : "I am",
+  
   "you were"   : "I was",
+  
   "you've"     : "I have",
+  
   "you'll"     : "I will",
+  
   "your"       : "my",
+  
   "yours"      : "mine",
+  
   "you"        : "me",
+  
   "me"         : "you"
+  
 }
 let’s start building logic for the NLTK chatbot.
 
