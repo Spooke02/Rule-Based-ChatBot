@@ -49,10 +49,10 @@ reflections = {
   "me"         : "you"
   
 }
+
 let’s start building logic for the NLTK chatbot.
 
 After importing the libraries, First, we have to create rules.
-
 After creating pairs of rules, we will define a function to initiate the chat process. The function is very simple which first greets the user and asks for any help. The conversation starts from here by calling a Chat class and passing pairs and reflections to it.
 
 An amazing Rule-based chatbot is created just by using Python and NLTK library. The bot works on various regex patterns present in user Intent and corresponding to it, presents the output to a user.
